@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp"
+        tools:context="com.ycbjie.ycwebview.MainActivity">
+
+        <TextView
+            android:id="@+id/tv_2_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorAccent"
+            android:padding="10dp"
+            android:text="2.1 带加载进度条的网页"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/tv_2_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorAccent"
+            android:padding="10dp"
+            android:text="2.3 A添加缓存拦截的功能，请求一个网站"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/tv_5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorAccent"
+            android:padding="10dp"
+            android:text="5.播放网页中的视频，包括全屏播放"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/tv_8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorAccent"
+            android:padding="10dp"
+            android:text="8.长按web页面处理，可以复制web页面文字，以及图片"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/tv_11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorAccent"
+            android:padding="10dp"
+            android:text="11.使用手机浏览器打开网络链接"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/tv_13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorAccent"
+            android:padding="10dp"
+            android:text="13.类似购物网站下拉webView后回弹效果"
+            android:textSize="12sp" />
+    </LinearLayout>
+</ScrollView>
